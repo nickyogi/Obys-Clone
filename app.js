@@ -209,8 +209,8 @@ function lineAnimation() {
     scrollTrigger: {
       trigger: "#thin-line1",
       scroller: "#main",
-      start: "top 110%",
-      end: "top 40%%",
+      start: "top 210%",
+      end: "top 150%",
       scrub: 3,
     },
   });
@@ -221,8 +221,8 @@ function lineAnimation() {
     scrollTrigger: {
       trigger: "#thin-line2",
       scroller: "#main",
-      start: "top 110%",
-      end: "top 40%%",
+      start: "top 210%",
+      end: "top 150%",
       scrub: 3,
     },
   });
@@ -233,8 +233,8 @@ function lineAnimation() {
     scrollTrigger: {
       trigger: "#thin-line3",
       scroller: "#main",
-      start: "top 110%",
-      end: "top 40%%",
+      start: "top 210%",
+      end: "top 150%",
       scrub: 3,
     },
   });
@@ -245,8 +245,8 @@ function lineAnimation() {
     scrollTrigger: {
       trigger: "#thin-line5",
       scroller: "#main",
-      start: "top 130%",
-      end: "top 70%",
+      start: "top 210%",
+      end: "top 150%",
       scrub: 3,
     },
   });
@@ -257,8 +257,8 @@ function lineAnimation() {
     scrollTrigger: {
       trigger: "#thin-line4",
       scroller: "#main",
-      start: "top 110%",
-      end: "top 90%%",
+      start: "top 220%",
+      end: "top 180%",
       scrub: 3,
     },
   });
