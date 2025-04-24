@@ -37,6 +37,7 @@ html, body{
             transform: translate(-50%,-50%);
     mix-blend-mode: difference;
     pointer-events: none;
+    opacity: 0;
 }
 
 
@@ -74,6 +75,8 @@ html, body{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            position: relative;
+            top: 500px;
 }
 
 #loader div{
@@ -246,6 +249,8 @@ html, body{
     height: fit-content;
     width: 100%;
     background-color: #151515;
+    position: relative;
+    top: 670px;
 }
 
 /* ---- Nav Icons ----- */
@@ -1147,6 +1152,11 @@ html, body{
 #loader div:nth-child(3) span{
     font-weight: 100;
     -webkit-text-stroke: 0.05vw white;
+}
+
+/* cursor */
+#cursor{
+    display: none;
 }
 
 /* -----MAIN----- */
