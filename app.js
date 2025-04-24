@@ -65,14 +65,14 @@ function loadCounter() {
   gsap.from("#line-first", {
     opacity: 0,
     duration: 0.5,
-    delay: 0.2,
+    // delay: 0.2,
     scrub: 3,
   });
 
-  gsap.from("#loader h1", {
-    y: 500,
+  gsap.to("#loader h1", {
+    top:0,
     duration: 0.8,
-    delay: 0.2,
+    // delay: 0.2,
     stagger: 0.2,
     scrub: 3,
   });
@@ -81,11 +81,11 @@ function loadCounter() {
 loadCounter();
 
 function page1Animation() {
-  gsap.from("#main", {
-    y: 650,
+  gsap.to("#main", {
+    top: 0,
     duration: 1.2,
-    ease: "expo.in",
-    delay: 3.5,
+    // ease: "expo.in",
+    delay: 4.2,
     stagger: 0.2,
     scrub: 5,
   });
@@ -93,7 +93,7 @@ function page1Animation() {
   gsap.from("#page1-main .line", {
     opacity: 0,
     duration: 0.5,
-    delay: 4,
+    delay: 4.5,
     stagger: 0.2,
     scrub: 3,
   });
@@ -101,21 +101,21 @@ function page1Animation() {
   gsap.from("#page1-main .up", {
     y: 500,
     duration: 0.8,
-    delay: 4,
+    delay: 4.5,
     stagger: 0.2,
     scrub: 3,
   });
 
   document.addEventListener("mousemove", function (dets) {
     gsap.to("#cursor", {
+      opacity: 1,
       left: dets.x,
       top: dets.y,
-      // duration:0.1
+      duration:0.1
     });
   });
 
-  Shery.makeMagnet("#nav-part2 h3" /* Element to target.*/, {});
-  Shery.makeMagnet("#nav-icons span svg" /* Element to target.*/, {});
+  
 }
 
 page1Animation();
@@ -197,46 +197,11 @@ function videoPlay() {
 videoPlay();
 
 function sheryAnimation() {
-  Shery.imageEffect(".img", {
-    style: 5,
-    config: {
-      noiseDetail: { value: 20.61, range: [0, 100] },
-      distortionAmount: { value: 2.75, range: [0, 10] },
-      scale: { value: 16.03, range: [0, 100] },
-      speed: { value: 0.32, range: [0, 1] },
-      zindex: { value: -9996999, range: [-9999999, 9999999] },
-      aspect: { value: 0.7972640761300556 },
-      ignoreShapeAspect: { value: true },
-      shapePosition: { value: { x: 0, y: 0 } },
-      shapeScale: { value: { x: 0.5, y: 0.5 } },
-      shapeEdgeSoftness: { value: 0, range: [0, 0.5] },
-      shapeRadius: { value: 0, range: [0, 2] },
-      currentScroll: { value: 0 },
-      scrollLerp: { value: 0.07 },
-      gooey: { value: true },
-      infiniteGooey: { value: false },
-      growSize: { value: 4, range: [1, 15] },
-      durationOut: { value: 1, range: [0.1, 5] },
-      durationIn: { value: 1.5, range: [0.1, 5] },
-      displaceAmount: { value: 0.5 },
-      masker: { value: false },
-      maskVal: { value: 1, range: [1, 5] },
-      scrollType: { value: 0 },
-      geoVertex: { range: [1, 64], value: 1 },
-      noEffectGooey: { value: true },
-      onMouse: { value: 0 },
-      noise_speed: { value: 0.2, range: [0, 10] },
-      metaball: { value: 0.72, range: [0, 2] },
-      discard_threshold: { value: 0.76, range: [0, 1] },
-      antialias_threshold: { value: 0.01, range: [0, 0.1] },
-      noise_height: { value: 0.5, range: [0, 2] },
-      noise_scale: { value: 16.79, range: [0, 100] },
-    },
-    gooey: true,
-  });
+  Shery.makeMagnet("#nav-part2 h3" /* Element to target.*/, {});
+  Shery.makeMagnet("#nav-icons span svg" /* Element to target.*/, {});
 }
 
-// sheryAnimation()
+sheryAnimation()
 
 function lineAnimation() {
   gsap.from("#thin-line1", {
