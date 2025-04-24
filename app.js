@@ -108,7 +108,6 @@ function page1Animation() {
 
   document.addEventListener("mousemove", function (dets) {
     gsap.to("#cursor", {
-      opacity: 1,
       left: dets.x,
       top: dets.y,
       duration:0.1
