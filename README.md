@@ -1,5 +1,5 @@
 <h1 id="obys-agency-website-clone">Obys Agency Website Clone</h1>
-<p>This project is a clone of the Obys Agency website</p>
+<p>This is a responsive and visually engaging clone of the Obys Agency website, recreated using modern front-end technologies. It replicates the clean aesthetic, creative layout, and award-winning design feel of the original site.</p>
 
 ## implemented 
 - HTML, CSS, JavaScript
@@ -17,15 +17,21 @@
 <li><a href="#license">License</a></li>
 </ul>
 <h2 id="overview">Overview</h2>
-<p>Describe briefly what the project is about and its purpose. Include any relevant information about the technologies used and the goals of the clone.
-<img src="/PreviewImages/ProjectPreview-1.PNG" alt="Obys Agency Website Clone Preview"></p>
+<p>This is a responsive and visually engaging clone of the Obys Agency website, recreated using modern front-end technologies. It replicates the clean aesthetic, creative layout, and award-winning design feel of the original site.
+<img src="/PreviewImages/ProjectPreview-1.PNG" alt="Obys Agency Website Clone Preview">
 <img src="/PreviewImages/ProjectPreview-2.PNG" alt="Obys Agency Website Clone Preview"></p>
 <h2 id="demo">Demo</h2>
 <p>Explore the live demo of the Obys Agency WebsiteClone : <a href="https://nickyogi.github.io/Obys-Clone/">Live Demo</a></p>
-<h2 id="features">Features</h2>
-<p>List the key features of the website clone. This could include interactive animations, responsive design, smooth scrolling, etc.</p>
+<h2 id="features">✨ Features</h2>
+<p>Key features of the website clone</p>
+<ul>
+  <li>🔁 Smooth Scroll Experience – Seamless navigation across sections using custom smooth-scrolling behavior.</li>
+  <li>🚩 Cool Animations – Engaging entrance animations and hover effects for a dynamic user experience.</li>
+  <li>🔰 Creative Layout – Carefully structured homepage with sections like Works, About, Team, and Contacts.</li>
+  <li>🌐 Responsive Design – Optimized for both desktop and mobile viewing.</li>
+  <li>💡 Modern UI/UX – Inspired by best practices in creative agency websites.</li>
+</ul>
 <h2 id="prerequisites">Prerequisites</h2>
-<p>Outline any software or dependencies that need to be installed before running the project. For example:</p>
 <ul>
 <li>Node.js</li>
 <li>npm</li>
